@@ -22,15 +22,15 @@
             ]
           },    
           {
-            "dropdown": "Core concepts",
+            "group": "Core concepts",
             "pages": [
               "essentials/search",
               "essentials/records",
               "essentials/lists",
               "essentials/campaigns"
-
             ]
           }
+          
         ]
       },
       {
