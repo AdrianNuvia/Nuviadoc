@@ -22,7 +22,7 @@
             ]
           },    
           {
-            "group": "Core concepts",
+            "dropdown": "Core concepts",
             "pages": [
               "essentials/search",
               "essentials/records",
