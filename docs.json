@@ -25,7 +25,7 @@
             "group": "Core concepts",
             "pages": [
               "essentials/markdown",
-              "essentials/code",
+              "essentials/records",
               "essentials/images",
               "essentials/settings",
               "essentials/navigation",
