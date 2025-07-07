@@ -12,15 +12,6 @@
     "tabs": [
       {
         "tab": "Guides",
-        "dropdowns": [
-    {
-      "dropdown": "Documentation",
-      "icon": "book-open",
-      "pages": [
-        "quickstart",
-        "development",
-        "navigation"
-      ]
         "groups": [
           {
             "group": "Get Started",
