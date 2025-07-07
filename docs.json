@@ -3,7 +3,7 @@
   "theme": "mint",
   "name": "Mint Starter Kit",
   "colors": {
-    "primary": "#16A34A",
+    "primary": "#5A6FC0",
     "light": "#07C983",
     "dark": "#15803D"
   },
@@ -77,7 +77,7 @@
   },
   "logo": {
     "light": "nuvia-logo-doc-light.svg",
-    "dark": "/logo/dark.svg"
+    "dark": "nuvia-logo-doc-dark.svg"
   },
   "navbar": {
     "links": [
