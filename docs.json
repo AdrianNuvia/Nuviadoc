@@ -20,20 +20,7 @@
               "quickstart",
               "development"
             ]
-          },
-
-          "navigation": {
-  "dropdowns": [
-    {
-      "dropdown": "Documentation",
-      "icon": "book-open",
-      "pages": [
-        "quickstart",
-        "development",
-        "navigation"
-      ]
-    }
-    
+          },    
           {
             "group": "Core concepts",
             "pages": [
