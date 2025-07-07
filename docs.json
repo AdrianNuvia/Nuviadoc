@@ -57,14 +57,13 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "LinkedIn",
+          "href": "https://www.linkedin.com/company/nuvia-ai"
         },
         {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
+          "anchor": "Web",
+          "href": "https://www.nuvia.co/",
+          "icon": "globe"
         },
         {
           "anchor": "Blog",
