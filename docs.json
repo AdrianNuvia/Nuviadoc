@@ -25,11 +25,9 @@
             "group": "Core concepts",
             "pages": [
               "essentials/search",
-              "essentials/markdown",
               "essentials/records",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "essentials/lists"
+
             ]
           }
         ]
