@@ -4,8 +4,8 @@
   "name": "Mint Starter Kit",
   "colors": {
     "primary": "#5A6FC0",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "light": "#5A6FC0",
+    "dark": "#5A6FC0"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -76,8 +76,8 @@
     }
   },
   "logo": {
-    "light": "nuvia-logo-doc-light.svg",
-    "dark": "nuvia-logo-doc-dark.svg"
+    "light": "logo/nuvia-logo-doc-light.svg",
+    "dark": "logo/nuvia-logo-doc-dark.svg"
   },
   "navbar": {
     "links": [
