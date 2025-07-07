@@ -76,7 +76,7 @@
     }
   },
   "logo": {
-    "light": "nuvia logo doc.svg",
+    "light": "nuvia-logo-doc-light.svg",
     "dark": "/logo/dark.svg"
   },
   "navbar": {
