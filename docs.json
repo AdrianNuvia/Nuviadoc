@@ -14,13 +14,26 @@
         "tab": "Guides",
         "groups": [
           {
-            "dropdown": "Get Started",
+            "group": "Get Started",
             "pages": [
               "index",
               "quickstart",
               "development"
             ]
           },
+
+          "navigation": {
+  "dropdowns": [
+    {
+      "dropdown": "Documentation",
+      "icon": "book-open",
+      "pages": [
+        "quickstart",
+        "development",
+        "navigation"
+      ]
+    }
+    
           {
             "group": "Core concepts",
             "pages": [
