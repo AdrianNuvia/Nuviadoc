@@ -28,10 +28,11 @@
               "essentials/search",
               "essentials/lists",
               {
-					"group": "Nested group",
-					"icon": "code",
+					"group": "CRM",
 					"pages": [
-						"essentials/records"
+						"essentials/records",
+                        "essentials/company",
+                        "essentials/people"            
                     ]
 				},
               "essentials/campaigns"
