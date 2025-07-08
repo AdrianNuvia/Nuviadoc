@@ -9,7 +9,6 @@
   },
   "favicon": "/faviconnuvia.svg",
   "navigation": {
-   
     "tabs": [
       {
         "tab": "Guides",
@@ -21,24 +20,28 @@
               "quickstart",
               "development"
             ]
-          },    
+          },
           {
             "group": "Core concepts",
             "pages": [
-              "essentials/search",
-              "essentials/lists",
               {
-					"group": "CRM",
-					"pages": [
-						"essentials/crm/records",
-                        "essentials/crm/companies",
-                        "essentials/crm/people"            
-                    ]
-				},
+                "group": "Data Intelligence",
+                "pages": [
+                  "essentials/search",
+                  "essentials/lists"
+                ]
+              },
+              {
+                "group": "CRM",
+                "pages": [
+                  "essentials/crm/records",
+                  "essentials/crm/companies",
+                  "essentials/crm/people"
+                ]
+              },
               "essentials/campaigns"
             ]
           }
-      
         ]
       },
       {
@@ -61,7 +64,6 @@
           }
         ]
       }
-     
     ],
     "global": {
       "anchors": [
