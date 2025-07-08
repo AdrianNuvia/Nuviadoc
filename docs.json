@@ -26,8 +26,14 @@
             "group": "Core concepts",
             "pages": [
               "essentials/search",
-              "essentials/records",
               "essentials/lists",
+              {
+					"group": "Nested group",
+					"icon": "code",
+					"pages": [
+						"essentials/records"
+                    ]
+				},
               "essentials/campaigns"
             ]
           }
