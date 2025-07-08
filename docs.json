@@ -8,6 +8,20 @@
     "dark": "#5A6FC0"
   },
   "favicon": "/faviconnuvia.svg",
+    "global": {
+    "anchors": [
+      {
+        "anchor": "Web",
+        "href": "https://www.nuvia.co/",
+        "icon": "globe"
+      },
+      {
+        "anchor": "Blog",
+        "href": "https://www.nuvia.co/en/blog",
+        "icon": "newspaper"
+      }
+    ]
+  },
   "navigation": {
     "tabs": [
       {
@@ -49,20 +63,6 @@
             ]
           }
         ]
-      }
-    ]
-  },
-  "global": {
-    "anchors": [
-      {
-        "anchor": "Web",
-        "href": "https://www.nuvia.co/",
-        "icon": "globe"
-      },
-      {
-        "anchor": "Blog",
-        "href": "https://www.nuvia.co/en/blog",
-        "icon": "newspaper"
       }
     ]
   },
