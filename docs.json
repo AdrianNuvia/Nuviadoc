@@ -23,14 +23,21 @@
             ]
           },    
           {
-            "group": "Core concepts",
-            "pages": [
-              "essentials/search",
-              "essentials/records",
-              "essentials/lists",
-              "essentials/campaigns"
-            ]
-          }
+  "group": "Core concepts",
+  "pages": [
+    "essentials/search",
+    "essentials/records",
+    {
+      "dropdown": "Lists",
+      "pages": [
+        "essentials/lists",
+        "essentials/lists/importing",
+        "essentials/lists/organizing"
+      ]
+    },
+    "essentials/campaigns"
+  ]
+}
       
         ]
       },
