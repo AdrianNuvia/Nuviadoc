@@ -103,7 +103,7 @@
     ],
     "primary": {
       "type": "button",
-      "label": "Go to Platform",
+      "label": "Go to platform",
       "href": "https://platform.nuvia.co/sign-in"
     }
   },
