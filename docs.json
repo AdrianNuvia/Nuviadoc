@@ -29,8 +29,8 @@
     "essentials/records",
     {
       "dropdown": "Lists",
+      "icon": "book-open",
       "pages": [
-        "essentials/lists",
         "essentials/lists/importing",
         "essentials/lists/organizing"
       ]
