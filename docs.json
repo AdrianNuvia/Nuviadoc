@@ -30,9 +30,9 @@
               {
 					"group": "CRM",
 					"pages": [
-						"essentials/records",
+						"essentials/crm/records",
                         "essentials/crm/companies",
-                        "essentials/people"            
+                        "essentials/crm/people"            
                     ]
 				},
               "essentials/campaigns"
