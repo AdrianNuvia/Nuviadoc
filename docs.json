@@ -9,6 +9,17 @@
   },
   "favicon": "/faviconnuvia.svg",
   "navigation": {
+
+  "dropdowns": [
+    {
+      "dropdown": "Documentation",
+      "icon": "book-open",
+      "pages": [
+        "quickstart",
+        "development",
+        "navigation"
+      ]
+    },
     "tabs": [
       {
         "tab": "Guides",
