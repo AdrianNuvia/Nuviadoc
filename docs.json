@@ -31,7 +31,7 @@
 					"group": "CRM",
 					"pages": [
 						"essentials/records",
-                        "essentials/company",
+                        "essentials/crm/companies",
                         "essentials/people"            
                     ]
 				},
