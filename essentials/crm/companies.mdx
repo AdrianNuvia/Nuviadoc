@@ -1,9 +1,11 @@
 ---
 title: "Companies"
-description: "Description of your new file."
+description: "Company type of record"
 sidebarTitle: "Companies"
 icon: "buildings"
 ---
+
+Company Records in Nuvia represent structured profiles of organizations discovered via **Search**, or external integrations (e.g. CRM). These records serve as the foundation for account-based strategies, enriched by AI and updated automatically.
 
 <img
   className="block dark:hidden"
@@ -16,5 +18,25 @@ icon: "buildings"
   className="hidden dark:block"
   src="/images/hero-companies-dark.png"
   alt="Hero Dark"
-  title=""
+  title={true}
 />
+
+### Default Columns
+
+| **Field**        | **Description**                                                     |
+| :--------------- | :------------------------------------------------------------------ |
+| Company Name     | Legal or commercial name of the organization                        |
+| Industry         | Primary industry the company operates in                            |
+| Company Size     | Number of employees or revenue band (auto-detected or user-defined) |
+| Website          | Official domain or landing page                                     |
+| LinkedIn         | Link to the company’s LinkedIn profile                              |
+| Location         | Headquarter or main office address                                  |
+| Tags             | Custom user-defined tags                                            |
+| Owner / Assignee | SDR or Sales Rep responsible for this account                       |
+
+### Key Features
+
+- Integration with CRM: sync and update company data automatically
+- Smart enrichment: detect company changes like job postings or funding rounds
+- Visual filters: organize companies by size, region, owner, or signal strength
+- Inline editing and bulk actions
