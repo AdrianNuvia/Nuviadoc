@@ -25,6 +25,12 @@
             "group": "Core concepts",
             "pages": [
               {
+                "group": "Outbound",
+                "pages": [
+                  "essentials/outbound/campaigns"
+                ]
+              },
+              {
                 "group": "Data Intelligence",
                 "pages": [
                   "essentials/data-intelligence/search",
