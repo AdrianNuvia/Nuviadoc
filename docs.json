@@ -12,19 +12,6 @@
     "tabs": [
       {
         "tab": "Guides",
-      "global": {
-    "anchors": [
-      {
-        "anchor": "Web",
-        "href": "https://www.nuvia.co/",
-        "icon": "globe"
-      },
-      {
-        "anchor": "Blog",
-        "href": "https://www.nuvia.co/en/blog",
-        "icon": "newspaper"
-      }
-        
         "groups": [
           {
             "group": "Get Started",
@@ -62,6 +49,20 @@
             ]
           }
         ]
+      }
+    ]
+  },
+  "global": {
+    "anchors": [
+      {
+        "anchor": "Web",
+        "href": "https://www.nuvia.co/",
+        "icon": "globe"
+      },
+      {
+        "anchor": "Blog",
+        "href": "https://www.nuvia.co/en/blog",
+        "icon": "newspaper"
       }
     ]
   },
