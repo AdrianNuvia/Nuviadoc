@@ -103,8 +103,8 @@
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Go to Platform",
+      "href": "https://platform.nuvia.co/sign-in"
     }
   },
   "footer": {
