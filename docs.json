@@ -55,10 +55,6 @@
   "global": {
     "anchors": [
       {
-        "anchor": "LinkedIn",
-        "href": "https://www.linkedin.com/company/nuvia-ai"
-      },
-      {
         "anchor": "Web",
         "href": "https://www.nuvia.co/",
         "icon": "globe"
