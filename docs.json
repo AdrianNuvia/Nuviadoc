@@ -49,46 +49,26 @@
             ]
           }
         ]
+      }
+    ]
+  },
+  "global": {
+    "anchors": [
+      {
+        "anchor": "LinkedIn",
+        "href": "https://www.linkedin.com/company/nuvia-ai"
       },
       {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
+        "anchor": "Web",
+        "href": "https://www.nuvia.co/",
+        "icon": "globe"
+      },
+      {
+        "anchor": "Blog",
+        "href": "https://www.nuvia.co/en/blog",
+        "icon": "newspaper"
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "LinkedIn",
-          "href": "https://www.linkedin.com/company/nuvia-ai"
-        },
-        {
-          "anchor": "Web",
-          "href": "https://www.nuvia.co/",
-          "icon": "globe"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://www.nuvia.co/en/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "logo/nuvia-logo-doc-light.svg",
