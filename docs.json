@@ -27,8 +27,8 @@
               {
                 "group": "Data Intelligence",
                 "pages": [
-                  "essentials/search",
-                  "essentials/lists"
+                  "essentials/data-intelligence/search",
+                  "essentials/data-intelligence/lists"
                 ]
               },
               {
