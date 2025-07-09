@@ -1,95 +1,102 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Nuvia Documentation",
-  "colors": {
-    "primary": "#5A6FC0",
-    "light": "#5A6FC0",
-    "dark": "#5A6FC0"
-  },
-  "favicon": "/faviconnuvia.svg",
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Get Started",
-            "pages": [
-              "index"
-            ]
-          },
-          {
-            "group": "Core concepts",
-            "pages": [
-              "essentials/credits"
-            ]
-          },
+    "$schema": "https://mintlify.com/docs.json",
+    "theme": "mint",
+    "name": "Nuvia Documentation",
+    "colors": {
+        "primary": "#5A6FC0",
+        "light": "#5A6FC0",
+        "dark": "#5A6FC0"
+    },
+    "favicon": "/faviconnuvia.svg",
+    "navigation": {
+        "tabs": [
+            {
+                "tab": "Guides",
+                "groups": [
                     {
-            "group": "Features",
-            "pages": [
-              {
-                "group": "Outbound",
-                "pages": [
-                  "essentials/outbound/campaigns"
+                        "group": "Get Started",
+                        "pages": [
+                            "index"
+                        ]
+                    },
+                    {
+                        "group": "Core concepts",
+                        "pages": [
+                            {
+                                "group": "Credits",
+                                "pages": [
+                                    "essentials/credits/credits",
+                                    "essentials/credits/bundles",
+                                    "essentials/credits/payperuse"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group": "Features",
+                        "pages": [
+                            {
+                                "group": "Outbound",
+                                "pages": [
+                                    "essentials/outbound/campaigns"
+                                ]
+                            },
+                            {
+                                "group": "Data Intelligence",
+                                "pages": [
+                                    "essentials/data-intelligence/search",
+                                    "essentials/data-intelligence/lists"
+                                ]
+                            },
+                            {
+                                "group": "CRM",
+                                "pages": [
+                                    "essentials/crm/records",
+                                    "essentials/crm/companies",
+                                    "essentials/crm/people"
+                                ]
+                            },
+                            "essentials/navi"
+                        ]
+                    }
                 ]
-              },
-              {
-                "group": "Data Intelligence",
-                "pages": [
-                  "essentials/data-intelligence/search",
-                  "essentials/data-intelligence/lists"
-                ]
-              },
-              {
-                "group": "CRM",
-                "pages": [
-                  "essentials/crm/records",
-                  "essentials/crm/companies",
-                  "essentials/crm/people"
-                ]
-              },
-              "essentials/navi"
-            ]
-          }
+            }
         ]
-      }
-    ]
-  },
-  "global": {
-    "anchors": [
-      {
-        "anchor": "Web",
-        "href": "https://www.nuvia.co/",
-        "icon": "globe"
-      },
-      {
-        "anchor": "Blog",
-        "href": "https://www.nuvia.co/en/blog",
-        "icon": "newspaper"
-      }
-    ]
-  },
-  "logo": {
-    "light": "logo/nuvia-logo-doc-light.svg",
-    "dark": "logo/nuvia-logo-doc-dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:info@nuvia.co"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Go to platform",
-      "href": "https://platform.nuvia.co/sign-in"
+    },
+    "global": {
+        "anchors": [
+            {
+                "anchor": "Web",
+                "href": "https://www.nuvia.co/",
+                "icon": "globe"
+            },
+            {
+                "anchor": "Blog",
+                "href": "https://www.nuvia.co/en/blog",
+                "icon": "newspaper"
+            }
+        ]
+    },
+    "logo": {
+        "light": "logo/nuvia-logo-doc-light.svg",
+        "dark": "logo/nuvia-logo-doc-dark.svg"
+    },
+    "navbar": {
+        "links": [
+            {
+                "label": "Support",
+                "href": "mailto:info@nuvia.co"
+            }
+        ],
+        "primary": {
+            "type": "button",
+            "label": "Go to platform",
+            "href": "https://platform.nuvia.co/sign-in"
+        }
+    },
+    "footer": {
+        "socials": {
+            "linkedin": "https://www.linkedin.com/company/nuvia-ai/"
+        }
     }
-  },
-  "footer": {
-    "socials": {
-      "linkedin": "https://www.linkedin.com/company/nuvia-ai/"
-    }
-  }
 }
