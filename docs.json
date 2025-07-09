@@ -45,6 +45,33 @@
               },
               "essentials/navi"
             ]
+          },
+                    {
+            "group": "Core concepts",
+            "pages": [
+              {
+                "group": "Outbound",
+                "pages": [
+                  "essentials/outbound/campaigns"
+                ]
+              },
+              {
+                "group": "Data Intelligence",
+                "pages": [
+                  "essentials/data-intelligence/search",
+                  "essentials/data-intelligence/lists"
+                ]
+              },
+              {
+                "group": "CRM",
+                "pages": [
+                  "essentials/crm/records",
+                  "essentials/crm/companies",
+                  "essentials/crm/people"
+                ]
+              },
+              "essentials/navi"
+            ]
           }
         ]
       }
