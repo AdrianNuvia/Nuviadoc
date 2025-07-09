@@ -1,110 +1,73 @@
 ---
 title: "Lists"
-description: "Reusable, custom snippets to keep content in sync"
+description: "Organize and segment your records"
 icon: "list"
 ---
 
+## Overview
+
 import SnippetIntro from '/snippets/snippet-intro.mdx';
 
-<SnippetIntro />
+**Lists** is the module in the Nuvia platform that allows users to **organize and segment their records** in a practical and intelligent way. It enables grouping of contacts or companies into custom lists for organization, prioritization, or activation in campaigns.
 
-## Creating a custom snippet
+<img
+  className="block dark:hidden"
+  src="/images/hero-companies-light.png"
+  alt="Hero Light"
+  title={true}
+/>
 
-**Pre-condition**: You must create your snippet file in the `snippets` directory.
+<img
+  className="hidden dark:block"
+  src="/images/hero-companies-dark.png"
+  alt="Hero Dark"
+  title={true}
+/>
 
-<Note>
-  Any page in the `snippets` directory will be treated as a snippet and will not
-  be rendered into a standalone page. If you want to create a standalone page
-  from the snippet, import the snippet into another file and call it as a
-  component.
-</Note>
+The module supports the creation of two types of lists:
 
-### Default export
+- **People Records Lists**
+- **Company Records Lists**
 
-1. Add content to your snippet file that you want to re-use across multiple
-   locations. Optionally, you can add variables that can be filled in via props
-   when you import the snippet.
-
-```mdx snippets/my-snippet.mdx
-Hello world! This is my content I want to reuse across pages. My keyword of the
-day is {word}.
-```
-
-<Warning>
-  The content that you want to reuse must be inside the `snippets` directory in
-  order for the import to work.
-</Warning>
-
-2. Import the snippet into your destination file.
-
-```mdx destination-file.mdx
----
-title: My title
-description: My Description
 ---
 
-import MySnippet from '/snippets/path/to/my-snippet.mdx';
+## 🎯 Objectives
 
-## Header
+The Lists module aims to give users an additional layer of control and efficiency over their prospect data by allowing them to:
 
-Lorem impsum dolor sit amet.
+- Organize saved records in a logical and reusable way
+- Segment audiences based on strategic criteria (role, industry, region, ICP, etc.)
+- Quickly activate outbound campaigns with pre-built audiences
+- Reduce manual effort and data duplication
+- Improve productivity for sales and marketing teams
 
-<MySnippet word="bananas" />
-```
-
-### Reusable variables
-
-1. Export a variable from your snippet file:
-
-```mdx snippets/path/to/custom-variables.mdx
-export const myName = 'my name';
-
-export const myObject = { fruit: 'strawberries' };
-```
-
-2. Import the snippet from your destination file and use the variable:
-
-```mdx destination-file.mdx
----
-title: My title
-description: My Description
 ---
 
-import { myName, myObject } from '/snippets/path/to/custom-variables.mdx';
+## 💡 How It Works
 
-Hello, my name is {myName} and I like {myObject.fruit}.
-```
+### 📌 Creating a List
 
-### Reusable components
+- Users can create a new list at any time, selecting whether it will contain **People** or **Companies**.
+- Records can be added manually, via **Search**, **Inbound**, or **CSV import**.
+- Lists can be renamed, duplicated, deleted, or filtered at any time.
 
-1. Inside your snippet file, create a component that takes in props by exporting
-   your component in the form of an arrow function.
+### 🧩 Structure
 
-```mdx snippets/custom-component.mdx
-export const MyComponent = ({ title }) => (
-  <div>
-    <h1>{title}</h1>
-    <p>... snippet content ...</p>
-  </div>
-);
-```
+- Each list displays records in a table format, with customized columns depending on the data type (name, title, company, LinkedIn, phone, signals, etc.).
+- Supports filters, sorting, bulk actions, and column customization.
 
-<Warning>
-  MDX does not compile inside the body of an arrow function. Stick to HTML
-  syntax when you can or use a default export if you need to use MDX.
-</Warning>
+### 🎯 Integration with Campaigns
 
-2. Import the snippet into your destination file and pass in the props
+- A list can be used directly as a **target audience** for outbound campaigns.
+- This reduces the time needed to build campaigns, since contacts are already filtered and grouped.
 
-```mdx destination-file.mdx
----
-title: My title
-description: My Description
 ---
 
-import { MyComponent } from '/snippets/custom-component.mdx';
+## ✅ Key Benefits
 
-Lorem ipsum dolor sit amet.
-
-<MyComponent title={'Custom title'} />
-```
+- **Smart organization**: create and manage custom lists aligned with your sales strategy
+- **Operational efficiency**: reuse lists in campaigns without reapplying filters or rebuilding queries
+- **Strategic segmentation**: separate leads and accounts by key characteristics and ICP profiles
+- **Simplified collaboration**: teammates can access, review, and reuse shared lists
+- **Faster activation**: select an existing list and launch a campaign in just a few clicks
+- **Centralized view**: all your lists are saved and accessible in one place with status and history
