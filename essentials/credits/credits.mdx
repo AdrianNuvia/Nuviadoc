@@ -67,48 +67,36 @@ If a user runs out of credits **before the end of the billing cycle**, they have
     | B01 | May 20, 2025     | 5,000 credits – expires Aug 18, 2025  | May 15 – Jun 15 |
     | B02 | Jun 22, 2025     | 10,000 credits – expires Sep 22, 2025 | Jun 15 – Jul 15 |
   </Accordion>
+  <Accordion title="What happens if I have leftover bundle credits that aren’t enough for the next action?">
+    Bundle logic ensures **100% of your credits can be used**.\
+    Example: You have 1 credit left, and an action requires 2 credits. The system will automatically pull the extra credit from your plan (if available).
+
+    | Transaction | Type  | Amount    | Details               |
+    | :---------- | :---- | :-------- | :-------------------- |
+    | Enrich      | Debit | 2 credits | Bundle: -1 / Plan: -1 |
+  </Accordion>
+  <Accordion title="What if I run out of credits and don’t have pay-per-use enabled?" iconType="regular">
+    You’ll still be able to use the platform normally, but you won’t be able to enrich data or use credit-based actions. Your options:
+
+    - Wait for the next cycle to renew
+    - Buy a credit bundle
+    - Enable pay-per-use
+
+    The platform will display a clear message indicating no credits are available and guide you through the options.
+  </Accordion>
+  <Accordion title="What happens to unused plan credits at the end of the cycle?" iconType="regular">
+    As explained in the Fundamentals section, **plan credits expire at the end of the billing cycle** and do not roll over.
+  </Accordion>
+  <Accordion title="What happens to unused plan credits at the end of the cycle?">
+    As explained in the Fundamentals section, **plan credits expire at the end of the billing cycle** and do not roll over.
+
+    **Example:**\
+    If you received 5,000 credits on May 15 and only used 3,000 by June 15, the remaining 2,000 credits will expire.
+  </Accordion>
+  <Accordion title="Can a trial user purchase a bundle?">
+    No. Trial accounts receive a limited number of credits for testing purposes only. **Bundle purchases are only available after upgrading to a paid plan**, ensuring a focused trial experience and encouraging conversion.
+  </Accordion>
+  <Accordion title="If I cancel and reactivate my plan in the same cycle, can I buy a new bundle?">
+    No. The **one-bundle-per-cycle** rule still applies. Even if you cancel and reactivate during the same billing period, the original bundle limit will remain in effect.
+  </Accordion>
 </AccordionGroup>
-
----
-
-### What happens if I have leftover bundle credits that aren’t enough for the next action?
-
-Bundle logic ensures **100% of your credits can be used**.\
-Example: You have 1 credit left and an action requires 2 credits. The system will automatically pull the extra credit from your plan (if available).
-
-| Transaction | Type  | Amount    | Details               |
-| :---------- | :---- | :-------- | :-------------------- |
-| Enrich      | Debit | 2 credits | Bundle: -1 / Plan: -1 |
-
----
-
-### What if I run out of credits and don’t have pay-per-use enabled?
-
-You’ll still be able to use the platform normally, but you won’t be able to enrich data or use credit-based actions. Your options:
-
-- Wait for the next cycle to renew
-- Buy a credit bundle
-- Enable pay-per-use
-
-The platform will display a clear message indicating no credits are available and guide you through the options.
-
----
-
-### What happens to unused plan credits at the end of the cycle?
-
-As explained in the Fundamentals section, **plan credits expire at the end of the billing cycle** and do not roll over.
-
-**Example:**\
-If you received 5,000 credits on May 15 and only used 3,000 by June 15, the remaining 2,000 credits will expire.
-
----
-
-### Can a trial user purchase a bundle?
-
-No. Trial accounts receive a limited number of credits for testing purposes only. **Bundle purchases are only available after upgrading to a paid plan**, ensuring a focused trial experience and encouraging conversion.
-
----
-
-### If I cancel and reactivate my plan in the same cycle, can I buy a new bundle?
-
-No. The **one-bundle-per-cycle** rule still applies. Even if you cancel and reactivate during the same billing period, the original bundle limit will remain in effect.
