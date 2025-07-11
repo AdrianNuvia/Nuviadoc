@@ -38,7 +38,8 @@
                             {
                                 "group": "Outbound",
                                 "pages": [
-                                    "essentials/outbound/campaigns"
+                                    "essentials/outbound/campaigns",
+                                    "essentials/outbound/campaign-inbox"
                                 ]
                             },
                             {
