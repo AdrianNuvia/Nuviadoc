@@ -53,7 +53,8 @@
                                 "pages": [
                                     "essentials/crm/records",
                                     "essentials/crm/companies",
-                                    "essentials/crm/people"
+                                    "essentials/crm/people",
+                                    "essentials/crm/import-csv"
                                 ]
                             },
                             "essentials/navi"
