@@ -29,7 +29,8 @@
                                     "essentials/credits/bundles",
                                     "essentials/credits/payperuse"
                                 ]
-                            }
+                            },
+                            "essentials/integrations-and-apis"
                         ]
                     },
                     {
